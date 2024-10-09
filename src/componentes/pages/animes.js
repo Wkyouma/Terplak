@@ -31,8 +31,8 @@ function NewProject() {
   }, [text]);
 
   const handleImageClicks = (anime) => {
-    const animeTitle = anime.attributes.canonicalTitle
-    navigate(`/anime/${animeTitle}`, { state: anime });
+    
+    navigate("/AnimeInfo", { state: anime });
   };
 
   return (
