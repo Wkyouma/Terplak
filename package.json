@@ -2,11 +2,6 @@
   "name": "teste",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Wkyouma.github.io/React",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Wkyouma/React"
-  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
