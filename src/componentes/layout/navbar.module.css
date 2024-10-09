@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #222;
+    padding: 1em;
+  }
+  
+  .list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+  
+  .item {
+    margin-right: 1em;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .item a {
+    color: #abb8d1;
+    text-decoration: none;
+  }
+  
+  .item a:hover {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .logo {
+    height: 80px; /* Define o tamanho da imagem */
+    margin-right: auto; /* Empurra os itens à direita */
+}

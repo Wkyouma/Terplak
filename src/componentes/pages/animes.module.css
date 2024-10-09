@@ -1,0 +1,33 @@
+.Anime_list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    list-style: none;
+    gap: 1.5rem; 
+}
+
+.Anime_list img {
+    max-width: 100%;
+    transition: transform 0.3s ease, opacity 0.3s ease; 
+}
+
+.Anime_list li {
+    position: relative; 
+}
+
+.Anime_list li:hover img {
+    transform: scale(1.05); 
+    opacity: 0.8; 
+}
+
+.div{
+    
+    width: 100%;
+    height: 100%;
+}
+.search{
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
